@@ -13,27 +13,51 @@
 <body class="works_on_smartphone">
     <header>
         <nav>
-            <ul>
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>            
+            <div class="fb-share-button" data-href="http://52.203.225.182/index.html" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2F52.203.225.182%2Findex.html&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Partager</a></div>
+            <ul>               
                 <li><a href="index.html">Animals</a></li>
                 <li><a href="tweets.html">Tweets</a></li>
                 <li><a href="songs.html">Songs</a></li>
                 <li><a href="technologies.html">Technologies</a></li>
-                <li><a href="about_me.html">About me</a></li> 
+                <li><a href="about_me.html">About me</a></li>              
             </ul>
         </nav>
     </header>
 
-    <main>   
+    <main>
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v13.0" nonce="UGmBRpqE"></script>   
             
          <article>
             <h3>Coeur de Pirate</h3>
                 <p><strong>
-                    Because music is an important part of my life.
+                    Because music is an important part of my life. Just a piece of piano and a beautiful voice.
                 </strong></p>
 
                 <iframe width="900" height="506" src="https://www.youtube.com/embed/CD6W_tuQUM8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </article>
-        <aside><strong>Beautiful piano and beautiful voice.</strong></aside>
+        <aside>
+            <div id="disqus_thread"></div>
+            <script>
+                /**
+                *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+                /*
+                var disqus_config = function () {
+                this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                };
+                */
+                (function() { // DON'T EDIT BELOW THIS LINE
+                var d = document, s = d.createElement('script');
+                s.src = 'https://thelonguestnameifound.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        </aside>
 
     </main>
 

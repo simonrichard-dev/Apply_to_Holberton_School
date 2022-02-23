@@ -20,12 +20,14 @@ a, h3 {
 body {
     display: flex;
     flex-direction: column;
+    
 }
 
 main {
     display: flex;
     flex-direction: row;
     flex:auto;
+    background-color: rgb(234, 239, 248);
 }
 
 article {
